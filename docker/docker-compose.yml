@@ -1,7 +1,7 @@
 version: '2.0'
 services:
   chatgpt-on-wechat:
-    image: zhayujie/chatgpt-on-wechat
+    image: ww1234/chatgpt-on-wechat
     container_name: chatgpt-on-wechat
     environment:
       OPEN_AI_API_KEY: 'YOUR API KEY'
@@ -10,7 +10,7 @@ services:
       SINGLE_CHAT_PREFIX: '["bot", "@bot"]'
       SINGLE_CHAT_REPLY_PREFIX: '"[bot] "'
       GROUP_CHAT_PREFIX: '["@bot"]'
-      GROUP_NAME_WHITE_LIST: '["ChatGPT测试群", "ChatGPT测试群2"]'
+      GROUP_NAME_WHITE_LIST: '["3个菜鸡", "动物园", "自走棋小分队"]'
       IMAGE_CREATE_PREFIX: '["画", "看", "找"]'
       CONVERSATION_MAX_TOKENS: 1000
       SPEECH_RECOGNITION: 'False'
